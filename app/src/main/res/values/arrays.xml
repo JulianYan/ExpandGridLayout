@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="camera_flashmode_icons" translatable="false">
+        <item>@drawable/ic_flash_off</item>
+        <item>@drawable/ic_flash_glyph</item>
+        <item>@drawable/ic_flash_on</item>
+        <item>@drawable/ic_flash_auto</item>
+    </array>
+
+    <string-array name="pref_camera_flashmode_entryvalues" translatable="false">
+        <item>off</item>
+        <item>led</item>
+        <item>on</item>
+        <item>auto</item>
+<!--        <item>torch</item>-->
+    </string-array>
+
+    <string-array name="pref_camera_flashmode_entries" translatable="false">
+        <item>@string/pref_camera_entry_off</item>
+        <item>@string/pref_camera_flashmode_entry_led</item>
+        <item>@string/pref_camera_flashmode_entry_on</item>
+        <item>@string/pref_camera_flashmode_entry_auto</item>
+<!--        <item>@string/pref_camera_flashmode_entry_torch</item>-->
+    </string-array>
+
+    <!-- Self timer -->
+    <string-array name="pref_camera_selftimer_entries" translatable="false">
+        <item>@string/pref_camera_entry_off</item>
+        <item>3s</item>
+        <item>10s</item>
+    </string-array>
+
+    <string-array name="pref_camera_selftimer_entryvalues" translatable="false">
+        <item>0</item>
+        <item>3000</item>
+        <item>10000</item>
+    </string-array>
+
+    <array name="camera_selftimer_icons" translate="false">
+        <item>@drawable/ic_timer_off</item>
+        <item>@drawable/ic_timer_3s</item>
+        <item>@drawable/ic_timer_10s</item>
+    </array>
+
+
+</resources>

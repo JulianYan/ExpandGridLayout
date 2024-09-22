@@ -9,63 +9,16 @@
 
     <com.example.expandgridlayout.ExpandGridLayout
         android:id="@+id/settings"
-        android:layout_width="404dp"
-        android:layout_height="414dp"
+        android:layout_width="414dp"
+        android:layout_height="wrap_content"
         android:padding="16dp"
         android:background="@drawable/backgound"
-        android:columnCount="3"
         android:clipToPadding="false"
         android:animateLayoutChanges="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-
-        <LinearLayout
-            android:layout_width="124dp"
-            android:layout_height="124dp"
-            android:background="@drawable/backgound_grey">
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="124dp"
-            android:layout_height="124dp"
-            android:background="@drawable/backgound_grey">
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="124dp"
-            android:layout_height="124dp"
-            android:background="@drawable/backgound_grey">
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="124dp"
-            android:layout_height="124dp"
-            android:background="@drawable/backgound_grey">
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="124dp"
-            android:layout_height="124dp"
-            android:background="@drawable/backgound_grey">
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="124dp"
-            android:layout_height="124dp"
-            android:background="@drawable/backgound_grey">
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="124dp"
-            android:layout_height="124dp"
-            android:background="@drawable/backgound_grey">
-        </LinearLayout>
-        <LinearLayout
-        android:layout_width="124dp"
-        android:layout_height="124dp"
-        android:background="@drawable/backgound_grey">
-    </LinearLayout>
-        <LinearLayout
-            android:layout_width="124dp"
-            android:layout_height="124dp"
-            android:background="@drawable/backgound_grey">
-        </LinearLayout>
 
 
     </com.example.expandgridlayout.ExpandGridLayout>
